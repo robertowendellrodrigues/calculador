@@ -81,6 +81,7 @@ header h3 {
     background: none;
     border: none;
     
+    
 }
 
 #memoria {
@@ -92,8 +93,10 @@ header h3 {
     background: none;
     border: none;
     animation-name: flash;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
+    
+
 }
 
 
@@ -101,15 +104,31 @@ header h3 {
 @keyframes flash {
     0%{ 
         color: black;
+        font-weight: 100;
+    }
+    5%{
+        color: black;
+        font-weight: 200;
     }
     10%{
         color: black;
+        font-weight: 300;
     }
     15%{
         color: black;
-    }
+        font-weight: 500;
+       }
     20%{
-        color: rgb(30, 37, 30);
+        color: black;
+        font-weight: 300;
+    }
+    25%{
+        color: black;
+        font-weight: 200;
+    }
+    30%{
+        color: black;
+        font-weight: 100;
     }
     40%{
         color: rgb(42, 56, 42);
