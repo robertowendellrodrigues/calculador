@@ -1,7 +1,7 @@
 
 function alerta(){
     alert("Tenha pacinência!\n todas as funcionalidades podem não funcionar") ;
-    alert ("Essa calculadora encontrasse em desenvolvimento \n por: Wendell Rodrigues")
+    alert ("Essa calculadora encontrasse em desenvolvimento \n por: Wendell Rodrigues \n Com ajuda de sua filha Maria Eduarda")
 }
 
 
