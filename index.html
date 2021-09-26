@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="fundo">
+
+        <div class="calc">
+            <header>
+                    <img src="imagens/wr3.png" alt="">
+                    <h3>Calculadora</h3>
+            </header>
+            
+            <div class="tela">
+                
+                <div class="div-memoria" >
+                    <p id="memoria">Em desenvolvimento</p>
+                       
+                </div>
+    
+                <div class="div-resultado">
+                  <input type="text" id="resultado" placeholder="0">
+                   
+                </div>
+                               
+            </div>
+            
+            <table class="botoes">
+                <tr>
+                    <td><button onclick="insert('acao', 'c')">C</button></td>
+                    <td><button style="color: red;" onclick="alerta()">Inf</button></td>
+                    <td><button onclick="insert('acao', 'd')"><</button></td>
+                    <td><button onclick="insert('acao', '/')">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('valor','7')">7</button></td>
+                    <td><button onclick="insert('valor','8')">8</button></td>
+                    <td><button onclick="insert('valor','9')">9</button></td>
+                    <td><button onclick="insert('acao','*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('valor','4')">4</button></td>
+                    <td><button onclick="insert('valor','5')">5</button></td>
+                    <td><button onclick="insert('valor','6')">6</button></td>
+                    <td><button onclick="insert('acao','-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('valor','1')">1</button></td>
+                    <td><button onclick="insert('valor','2')">2</button></td>
+                    <td><button onclick="insert('valor','3')">3</button></td>
+                    <td rowspan="2"><button id="soma" onclick="insert('acao', '+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('valor', '0')">0</button></td>
+                    <td><button onclick="insert('acao','.')">,</button></td>
+                    <td><button onclick="insert('acao', '=')">=</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+        
+</body>
+<script src="js/script.js"></script>
+
+</html>
